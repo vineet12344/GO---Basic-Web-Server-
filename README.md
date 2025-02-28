@@ -15,3 +15,40 @@ Clone the repository:
 ```sh
 git clone https://github.com/vineet12344/GO---Basic-Web-Server-.git
 cd GO---Basic-Web-Server-
+
+Usage
+
+Run the server using:
+
+go run main.go
+
+The server will start on http://localhost:8080.
+Endpoints
+GET /hello
+
+Responds with:
+
+Hello Ebery Nyan
+
+POST /form
+
+Accepts form data (name, address) and returns a response with submitted values:
+
+POST request successful
+
+Name: <your_name>
+Address: <your_address>
+
+Project Structure
+
+📦 GO---Basic-Web-Server-
+├── 📂 static         # Static files (HTML, CSS, JS, etc.)
+├── 📄 main.go        # Main server code
+└── 📄 README.md      # Project documentation
+
+License
+
+This project is open-source and available under the MIT License.
+Author
+
+Vineet Salve
